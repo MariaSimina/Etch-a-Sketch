@@ -10,5 +10,11 @@ for (let i = 0; i < 16; i++) {
         row.appendChild(divs); 
     }
 
-    
+    let theDivs = document.querySelectorAll('.gridDivs');
+
+    theDivs.forEach ((div) => {
+        div.addEventListener('mouseover', () => {
+            div.style.backgroundColor = "black";
+        })
+    });
 }
