@@ -1,12 +1,17 @@
 #container {
     display: flex;
-    flex-wrap: wrap;
-    width: 1634px;
+    width: 1640;
+    height: 1640;
 }
 
 .gridDivs {
     height: 100px;
     width: 100px;
-    background-color: aqua;
-    border: solid black 1px;
+    background-color: white;
+    border: solid black 0.5px;
+    border-radius: 4px;
+}
+
+.gridDivs:hover {
+    background-color: black;
 }
